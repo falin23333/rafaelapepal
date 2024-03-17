@@ -190,6 +190,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+.imgdos{
+  
+  width: 70%; /* Ajusta el tamaño según lo necesites */
+  max-width: 500px; /* Tamaño máximo */
+  border-radius: 50%; /* Para hacer la imagen circular */
+  display: block;
+
+}
 
 a {
   color: inherit;
@@ -4098,10 +4106,41 @@ ul.cs-list.cs-style2 li:not(:last-child) {
   color: #06182c;
 }
 
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+  
 .cs-dark .cs-white_btn:hover {
   color: #fff;
 }
+table {
+  width: 100%;
+  font: 1em sans-serif;
+  border-collapse: collapse;
+  background: url('/images/ban3.jpg') no-repeat right;
+  background-size: 300px; /* Puedes ajustar el tamaño según tus necesidades */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+}
 
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color:transparent; /* Color de fondo para las celdas de encabezado */
+  color: white; /* Color del texto para las celdas de encabezado */
+}
+
+tr:nth-child(even) {
+  background-color: transparent; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+  background-color: transparent; /* Color de fondo cuando el cursor pasa sobre una fila */
+}
 .cs-dark .page-link {
   color: #fff;
   border-color: #0c2e4e;
